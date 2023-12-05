@@ -1,0 +1,15 @@
+
+.profile-page{
+    padding: 0 2.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile-wrapper {
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+        margin-bottom: 1% ;
+        padding: 0 1%;
+
+}
+

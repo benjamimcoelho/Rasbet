@@ -1,0 +1,11 @@
+use rasbet;
+insert into apostas_piloto (id, nome, position, partida_id, odds) values (1, 'Taffy Eadmeades', 401, 1, 9.03);
+insert into apostas_piloto (id, nome, position, partida_id, odds) values (2, 'Kassia Fairn', 783, 2, 5.33);
+insert into apostas_piloto (id, nome, position, partida_id, odds) values (3, 'Lorilee Duckinfield', 914, 3, 5.09);
+insert into apostas_piloto (id, nome, position, partida_id, odds) values (4, 'Binky Speek', 413, 4, 3.35);
+insert into apostas_piloto (id, nome, position, partida_id, odds) values (5, 'Lanie McClenan', 225, 5, 8.2);
+insert into apostas_piloto (id, nome, position, partida_id, odds) values (6, 'Arlette Leeson', 348, 1, 2.09);
+insert into apostas_piloto (id, nome, position, partida_id, odds) values (7, 'Cody Shutt', 369, 2, 7.17);
+insert into apostas_piloto (id, nome, position, partida_id, odds) values (8, 'Oralie Slowey', 740, 3, 4.73);
+insert into apostas_piloto (id, nome, position, partida_id, odds) values (9, 'Ameline Cheesman', 938, 4, 5.48);
+insert into apostas_piloto (id, nome, position, partida_id, odds) values (10, 'Frazer Napoleon', 83, 5, 5.46);

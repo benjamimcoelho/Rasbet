@@ -1,0 +1,50 @@
+{% load static %}
+<link rel='stylesheet' type='text/css' media='screen' href="{% static 'CSS/historico.css' %}">
+
+{% if apostas or apostasFormula %}
+    <div class="historico-wrapper">
+
+        
+
+        {% for aposta in apostas %}
+            {% if aposta.estado == 'W' %}
+                <h3 style="background-color: rgb(94, 224, 94); border-radius: 10px;">Jackpot! - Jogo : {{ aposta.partida.equipa_casa }} vs {{ aposta.partida.equipa_visitante }} - Resultado: {% if aposta.resultadoApostado == 'C' %} {{aposta.partida.equipa_casa}} {% else %} {% if aposta.resultadoApostado == 'V' %} {{aposta.partida.equipa_visitante}} {% else %} {% if aposta.resultadoApostado == 'E' %} Empate {% endif %} {% endif %} {% endif %} <h2 style="margin:0px">{{ aposta.lucro }} {{ aposta.moeda }}</h2> </h3>
+            {% endif %}
+
+            {% if aposta.estado == 'L' %}
+                <h3 style="background-color: rgb(168, 168, 168); border-radius: 10px;">Terminado - Jogo : {{ aposta.partida.equipa_casa }} vs {{ aposta.partida.equipa_visitante }} - Resultado: {% if aposta.resultadoApostado == 'C' %} {{aposta.partida.equipa_casa}} {% else %} {% if aposta.resultadoApostado == 'V' %} {{aposta.partida.equipa_visitante}} {% else %} {% if aposta.resultadoApostado == 'E' %} Empate {% endif %} {% endif %} {% endif %} - Valor Apostado: {{ aposta.valor }} {{ aposta.moeda }} </h3>
+            {% endif %}
+            
+            {% if aposta.estado == 'A' %}
+                <h3 style="background-color: rgb(170, 214, 255); border-radius: 10px;">Ativa - Jogo : {{ aposta.partida.equipa_casa }} vs {{ aposta.partida.equipa_visitante }} - Resultado: {% if aposta.resultadoApostado == 'C' %} {{aposta.partida.equipa_casa}} {% else %} {% if aposta.resultadoApostado == 'V' %} {{aposta.partida.equipa_visitante}} {% else %} {% if aposta.resultadoApostado == 'E' %} Empate {% endif %} {% endif %} {% endif %} - Valor Apostado: {{ aposta.valor }} {{ aposta.moeda }} </h3>
+            {% endif %}
+
+            {% if aposta.estado == 'S' %}
+                <h3 style="background-color: rgb(255, 254, 184); border-radius: 10px;">Suspensa - Jogo : {{ aposta.partida.equipa_casa }} vs {{ aposta.partida.equipa_visitante }} - Resultado: {% if aposta.resultadoApostado == 'C' %} {{aposta.partida.equipa_casa}} {% else %} {% if aposta.resultadoApostado == 'V' %} {{aposta.partida.equipa_visitante}} {% else %} {% if aposta.resultadoApostado == 'E' %} Empate {% endif %} {% endif %} {% endif %} - Valor Apostado: {{ aposta.valor }} {{ aposta.moeda }} </h3>
+            {% endif %}
+
+        {% endfor %}
+
+        {% for aposta in apostasFormula %}
+            {% if aposta.estado == 'W' %}
+                <h3 style="background-color: rgb(94, 224, 94); border-radius: 10px;">Jackpot! - {{ aposta.partida.titulo }} - {{ aposta.pilotoApostado.nome }} - Lucro: <h2>{{ aposta.lucro }} {{ aposta.moeda }}</h2></h3>
+            {% endif %}
+
+            {% if aposta.estado == 'L' %}
+                <h3 style="background-color: rgb(168, 168, 168); border-radius: 10px;">Terminado - {{ aposta.partida.titulo }} - {{ aposta.pilotoApostado.nome }} - Valor Apostado: {{ aposta.valor }} {{ aposta.moeda }}</h3>
+            {% endif %}
+            
+            {% if aposta.estado == 'A' %}
+                <h3 style="background-color: rgb(170, 214, 255); border-radius: 10px;">Ativa - {{ aposta.partida.titulo }} - {{ aposta.pilotoApostado.nome }} - Valor Apostado: {{ aposta.valor }} {{ aposta.moeda }}</h3>
+            {% endif %}
+
+            {% if aposta.estado == 'S' %}
+                <h3 style="background-color: rgb(255, 254, 184); border-radius: 10px;">Suspensa - {{ aposta.partida.titulo }} - {{ aposta.pilotoApostado.nome }} - Valor Apostado: {{ aposta.valor }} {{ aposta.moeda }}</h3>
+            {% endif %}
+
+            
+
+        {% endfor %}
+    </div>
+
+{% endif %}

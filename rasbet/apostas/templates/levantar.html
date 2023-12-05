@@ -1,0 +1,169 @@
+{% extends 'main.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'CSS/depositar.css' %}">
+
+    {% include 'messages.html' with messages=messages %}
+
+    <div id="title"><h1>LEVANTAR DINHEIRO</h1></div>
+
+<p id="GFG_DOWN"></p>
+<script>
+        var down = document.getElementById("GFG_DOWN");
+
+        // Create a break line element
+        var br = document.createElement("br");
+
+        function depositar(obj) {
+            // Create a form dynamically
+            var element = document.getElementById("form");
+            if (element != null && typeof(element) != 'undefined') {
+                element.remove();
+            }
+
+            var form = document.createElement("form");
+            form.setAttribute("method", "post");
+            form.setAttribute("action", "");
+            form.setAttribute("id","form");
+            if (obj.value === 'Dogecoin') {
+
+                // Create an input element for Wallet Address
+                var FN = document.createElement("input");
+                FN.setAttribute("type", "text");
+                FN.setAttribute("name", "dogecoinwalletaddress");
+                FN.setAttribute("placeholder", "Wallet Address");
+
+
+                // Create an input element for date of birth
+                var DOB = document.createElement("input");
+                DOB.setAttribute("type", "text");
+                DOB.setAttribute("name", "ammount");
+                DOB.setAttribute("placeholder", "ammount");
+            } else if (obj.value === 'Euro') {
+                // Create an input element for Wallet Address
+                var FN = document.createElement("input");
+                FN.setAttribute("type", "text");
+                FN.setAttribute("name", "cardnumber");
+                FN.setAttribute("placeholder", "cardnumber");
+
+
+                // Create an input element for date of birth
+                var DOB = document.createElement("input");
+                DOB.setAttribute("type", "text");
+                DOB.setAttribute("name", "euroammount");
+                DOB.setAttribute("placeholder", "ammount");
+
+            } else if (obj.value === 'Dolar') {
+
+                // Create an input element for Wallet Address
+                var FN = document.createElement("input");
+                FN.setAttribute("type", "text");
+                FN.setAttribute("name", "cardnumber");
+                FN.setAttribute("placeholder", "cardnumber");
+
+
+                // Create an input element for date of birth
+                var DOB = document.createElement("input");
+                DOB.setAttribute("type", "text");
+                DOB.setAttribute("name", "dolarammount");
+                DOB.setAttribute("placeholder", "ammount");
+
+            } else if (obj.value === 'Bitcoin') {
+
+
+                // Create an input element for Wallet Address
+                var FN = document.createElement("input");
+                FN.setAttribute("type", "text");
+                FN.setAttribute("name", "bitcoinwalletaddress");
+                FN.setAttribute("placeholder", "wallet address");
+
+
+                // Create an input element for date of birth
+                var DOB = document.createElement("input");
+                DOB.setAttribute("type", "text");
+                DOB.setAttribute("name", "ammount");
+                DOB.setAttribute("placeholder", "ammount");
+
+
+            } else if (obj.value === 'Libra') {
+
+                // Create an input element for Wallet Address
+                var FN = document.createElement("input");
+                FN.setAttribute("type", "text");
+                FN.setAttribute("name", "cardnumber");
+                FN.setAttribute("placeholder", "cardnumber");
+
+
+                // Create an input element for date of birth
+                var DOB = document.createElement("input");
+                DOB.setAttribute("type", "text");
+                DOB.setAttribute("name", "libraammount");
+                DOB.setAttribute("placeholder", "ammount");
+
+                } else if (obj.value === 'Cardano') {
+
+
+                // Create an input element for Wallet Address
+                var FN = document.createElement("input");
+                FN.setAttribute("type", "text");
+                FN.setAttribute("name", "cardanowalletaddress");
+                FN.setAttribute("placeholder", "wallet address");
+
+
+                // Create an input element for date of birth
+                var DOB = document.createElement("input");
+                DOB.setAttribute("type", "text");
+                DOB.setAttribute("name", "ammount");
+                DOB.setAttribute("placeholder", "ammount");
+
+
+                }
+            var inputElem = document.createElement('input');
+            inputElem.type = 'hidden';
+            inputElem.name = 'csrfmiddlewaretoken';
+            inputElem.value = '{{ csrf_token }}';
+            form.appendChild(inputElem);
+
+            // create a submit button
+            var s = document.createElement("input");
+            s.setAttribute("type", "submit");
+            s.setAttribute("value", "Submit");
+            s.setAttribute("class","submit");
+
+
+            // Append the Wallet Address input to the form
+            form.appendChild(FN);
+
+            // Inserting a line break
+            form.appendChild(br.cloneNode());
+
+            // Append the DOB to the form
+            form.appendChild(DOB);
+            form.appendChild(br.cloneNode());
+
+
+            // Append the submit button to the form
+            form.appendChild(s);
+
+            document.getElementsByClassName("depositar")[0].appendChild(form);
+            // document.getElementsByTagName("body")[0]
+            //     .appendChild(form);
+
+        }
+    </script>
+
+
+        <div class="depositar">
+        <!-- <h2>Escolha um método de depósito</h2> -->
+        <select autocomplete=off id="opcao" value="" onchange="depositar(this)">
+            <option value="1" disabled selected hidden>Escolha um método de Levantamento</option>
+            {% for metodo in metodos %}
+                <option value={{ metodo }}>{{ metodo }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+{% endblock %}

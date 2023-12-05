@@ -1,0 +1,73 @@
+{% load static %}
+{% if request.user.is_authenticated %}
+    <a href="{% url 'home' %}"> <img src="{% static 'Images/publicidade1.png' %}" style="margin-left:2%; margin-right: 2%; margin-top: 2%;" width="96%" alt="RasbetPub"> </a>
+{% else %}
+    <a href="{% url 'registar' %}"> <img src="{% static 'Images/publicidade1.png' %}" style="margin-left:2%; margin-right: 2%; margin-top: 2%;" width="96%" alt="RasbetPub"> </a>
+{% endif %}
+
+<ul class="apostasnav">
+    <a href="{% url 'homesorting' desporto 'favorite' %}" title="Organizar por relevância.">
+        <li>  <img src="{% static 'Images/star.png' %}" height="20px" alt=""> </li>
+    </a>
+    <a href="{% url 'homesorting' desporto 'date' %}" title="Organizar por data.">
+        <li>  <img src="{% static 'Images/sortDate.png' %}" height="25px" alt=""> </li>
+    </a>
+    <a href="{% url 'homesorting' desporto 'name' %}" title="Organizar por Nome.">
+        <li>  <img src="{% static 'Images/sortName.png' %}" height="25px" alt=""> </li>
+    </a>
+</ul>
+
+{% if partidas %}
+{% for partida in partidas %}
+
+    <div class="partida-wrapper">
+        <div class="partidatitulo">
+            <h3> <img src="{% static 'Images/futebol.png' %}" height="20px" alt=""> {{ partida.titulo }} | {{ partida.equipa_casa }} - {{partida.equipa_visitante}} </h3>
+
+        </div>
+
+        <p class="data">{{ partida.commence_time }}</p>
+        <div class="equipawrapper">
+
+            <a class="equipa" href="{% url 'add-aposta-boletim' partida.id 'C' %}">
+                {{ partida.equipa_casa }}
+                ({{ partida.odds_casa }})
+            </a>
+        </div>
+        <div>
+
+            <a class="equipa" href="{% url 'add-aposta-boletim' partida.id 'C' %}">
+                Empate
+                ({{ partida.odds_empate }})
+            </a>
+        </div>
+
+        <div>
+
+            <a class="equipa" href="{% url 'add-aposta-boletim' partida.id 'C' %}">
+                {{ partida.equipa_visitante }}
+                ({{ partida.odds_visitante }})
+            </a>
+        </div>
+
+    </div>
+{% endfor %}
+
+{% endif %}
+
+{% if partidasFormula %}
+
+{% for partida in partidasFormula %}
+    <div class="formula1wrapper">
+        <h2> <img src="{% static 'Images/formula1.png' %}" height="20px" alt=""> {{partida.titulo}}</h2>
+        <p class="dataformula">{{partida.commence_time}}</p>
+        {% for piloto in partida.piloto_set.all %}
+            <a class="piloto" href="{% url 'add-aposta-boletim-formula' partida.id piloto.id%}">{{piloto.nome}} - {{piloto.odds}}</p> </a>
+        {% endfor %}
+    </div>
+
+   
+{% endfor %}
+
+{% endif %}
+

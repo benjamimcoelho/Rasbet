@@ -1,0 +1,68 @@
+{% load static %}
+
+<link rel='stylesheet' type='text/css' media='screen' href="{% static 'CSS/wallet.css' %}">
+
+
+
+
+<div class="wallet-button">
+    <a href="{% url 'depositar' %}">
+        <button class="depositar">DEPOSITAR</button>
+    </a>
+</div>
+
+
+
+<div class="wallet-button">
+    <a href="{% url 'levantar' %}">
+        <button class="levantar">LEVANTAR</button>
+    </a>
+</div>
+
+<div class="wallet-wrapper">
+    <h1>Carteira</h1>
+
+    
+
+    {% if utilizador.carteira.saldo_euro > 0 %}
+    <div class="coin-wrapper">
+        <h2 class="coin-value">{{ utilizador.carteira.saldo_euro }} €</h2>
+    </div>
+    {% endif %}
+
+    {% if utilizador.carteira.saldo_dolar > 0 %}
+    <div class="coin-wrapper">
+        <h2 class="coin-value">{{ utilizador.carteira.saldo_dolar }} $</h2>
+    </div>
+    {% endif %}
+
+    {% if utilizador.carteira.saldo_libra > 0 %}
+    <div class="coin-wrapper">
+        <h2 class="coin-value">{{ utilizador.carteira.saldo_libra }} £</h2>
+    </div>
+    {% endif %}
+
+    {% if utilizador.carteira.saldo_dogecoin > 0 %}
+    <div class="coin-wrapper">
+        
+        <h2 class="coin-value">{{ utilizador.carteira.saldo_dogecoin }} <img class="coin-logo" src="{% static 'Images/doge.png' %}" alt=""> </h2>
+        
+    </div>
+    {% endif %}
+
+    {% if utilizador.carteira.saldo_bitcoin > 0 %}
+    <div class="coin-wrapper">
+        <h2 class="coin-value">{{ utilizador.carteira.saldo_bitcoin }} <img class="coin-logo" src="{% static 'Images/bitcoin.png' %}" alt=""></h2>
+        
+    </div>
+    {% endif %}
+
+    {% if utilizador.carteira.saldo_cardano > 0 %}
+    <div class="coin-wrapper">
+        <h2 class="coin-value">{{ utilizador.carteira.saldo_cardano }} <img class="coin-logo" src="{% static 'Images/cardano.png' %}" alt=""> </h2>
+        
+    </div>
+    {% endif %}
+
+</div>
+

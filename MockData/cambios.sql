@@ -1,0 +1,17 @@
+use rasbet;
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (1,'Euro','Dolar',1.33,0.03);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (2,'Euro','Dogecoin',3,0.03);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (3,'Euro','Bitcoin',0.0001,0.03);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (4,'Dolar','Euro',0.83,0.03);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (5,'Dolar','Dogecoin',4,0.03);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (6,'Dolar','Bitcoin',0.00009,0.03);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (7,'Dogecoin','Euro',0.33,0.03);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (8,'Dogecoin','Dolar',0.43,0.03);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (9,'Dogecoin','Bitcoin',0.00000001,0.03);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (10,'Bitcoin','Euro',50000,0.03);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (11,'Bitcoin','Dolar',55000,0.03);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (12,'Bitcoin','Dogecoin',150000,0.03);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (13,'Euro','Euro',1,0);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (14,'Dolar','Dolar',1,0);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (15,'Dogecoin','Dogecoin',1,0);
+insert into apostas_cambio(id, moeda_origem, moeda_destino, taxa_cambio, taxa_rasbet) values (16,'Bitcoin','Bitcoin',1,0);

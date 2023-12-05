@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<alloy>
+
+<view nodetheme="Martha">
+
+<defaultnode/>
+
+<defaultedge/>
+
+<node>
+   <type name="Int"/>
+   <type name="String"/>
+   <type name="univ"/>
+   <type name="seq/Int"/>
+</node>
+
+<node shape="Box" color="Blue">
+   <type name="DataNode"/>
+</node>
+
+<node shape="Ellipse" color="Yellow">
+   <type name="Cliente"/>
+</node>
+
+<node shape="Hexagon" color="White">
+   <type name="ReverseProxy_and_BalanceLoader"/>
+</node>
+
+<node shape="Inv Triangle" color="Red">
+   <type name="GTM"/>
+</node>
+
+<node shape="Lined Diamond" color="Gray">
+   <type name="RasBet"/>
+</node>
+
+<node shape="Parallelogram" color="Green">
+   <type name="Coordinator"/>
+</node>
+
+</view>
+
+</alloy>

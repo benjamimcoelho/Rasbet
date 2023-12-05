@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'CSS/login.css' %}">
+    <link rel="icon" href="{% static 'Images/icon.png' %}">
+    <title>Register</title>
+</head>
+<body>
+
+<div class="login">
+    <a href="{% url 'home' %}"> <img src="{% static 'Images/logo.png' %}" alt="Rasbet"></a>
+
+    <h1>Register Profile</h1>
+
+
+    <form method="POST" action="">
+        {% csrf_token %}
+        <div class="form-field">
+            {{ profile_form.nome.label_tag }}
+            {{ profile_form.nome }}
+        </div>
+        <div class="form-field">
+            
+            {{ form.username.label_tag }}
+            {{ form.username }}
+        </div>
+        <div class="form-field">
+            {{ profile_form.email.label_tag }}
+            {{ profile_form.email }}
+        </div>
+        <div class="form-field">
+            {{ profile_form.morada.label_tag }}
+            {{ profile_form.morada }}
+        </div>
+        <div class="form-field">
+            {{ profile_form.codigoPostal.label_tag }}
+            {{ profile_form.codigoPostal }}
+        </div>
+        <div class="form-field">
+            
+            {{ form.password1.label_tag }}
+            {{ form.password1 }}
+        </div>
+        <div class="form-field">
+            
+            {{ form.password2.label_tag }}
+            {{ form.password2 }}
+        </div>
+        <div class="form-field">
+            {{ profile_form.nacionalidade.label_tag }}
+            {{ profile_form.nacionalidade }}
+        </div>
+            {{ form.username.errors }}
+            {{ form.password1.errors }}
+            {{ form.password2.errors }}
+            {% include 'messages.html' %}
+        
+        <input id="loginbutton" class="btn btn-success btn-block" type="submit" value="Register">
+        <br>
+        {{ form.non_field_errors }}
+    </form>
+
+    <p>Already signed up? <a href="{% url 'login' %}">Login</a></p>
+
+</div>
+</body>
+</html>

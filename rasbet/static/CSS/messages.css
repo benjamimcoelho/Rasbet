@@ -1,0 +1,29 @@
+.messages{
+    z-index: 3;
+    left:80%;
+    top:80%;
+    
+    
+    position: fixed;
+}
+
+.messages li {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    animation: hideAnimation 0s ease-in 5s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes hideAnimation {
+    to {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+  }

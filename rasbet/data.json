@@ -1,0 +1,2077 @@
+[
+  {
+    "id": "3730592efb54badf58c7a1bfe412c972",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-01-21T19:00:00Z",
+    "home_team": "Arouca",
+    "away_team": "Benfica",
+    "bookmakers": [
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2022-01-18T17:34:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 11.0 },
+              { "name": "Benfica", "price": 1.3 },
+              { "name": "Draw", "price": 4.8 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 8.95 },
+              { "name": "Benfica", "price": 1.34 },
+              { "name": "Draw", "price": 5.3 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2022-01-18T17:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 10.5 },
+              { "name": "Benfica", "price": 1.31 },
+              { "name": "Draw", "price": 5.35 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Arouca", "price": 1.94, "point": 1.5 },
+              { "name": "Benfica", "price": 1.97, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 10.75 },
+              { "name": "Benfica", "price": 1.3 },
+              { "name": "Draw", "price": 5.35 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2022-01-18T17:42:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 9.6 },
+              { "name": "Benfica", "price": 1.33 },
+              { "name": "Draw", "price": 5.6 }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "outcomes": [
+              { "name": "Arouca", "price": 23.0 },
+              { "name": "Benfica", "price": 1.34 },
+              { "name": "Draw", "price": 6.6 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 9.1 },
+              { "name": "Benfica", "price": 1.3 },
+              { "name": "Draw", "price": 4.9 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Arouca", "price": 1.87, "point": 1.5 },
+              { "name": "Benfica", "price": 1.94, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "intertops",
+        "title": "Intertops",
+        "last_update": "2022-01-18T17:42:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 9.5 },
+              { "name": "Benfica", "price": 1.28 },
+              { "name": "Draw", "price": 4.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2022-01-18T17:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 11.06 },
+              { "name": "Benfica", "price": 1.32 },
+              { "name": "Draw", "price": 5.29 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Arouca", "price": 1.93, "point": 1.5 },
+              { "name": "Benfica", "price": 1.96, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "matchbook",
+        "title": "Matchbook",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Arouca", "price": 1.92, "point": 1.5 },
+              { "name": "Benfica", "price": 1.96, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2022-01-18T17:44:38Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 9.5 },
+              { "name": "Benfica", "price": 1.27 },
+              { "name": "Draw", "price": 4.9 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2022-01-18T17:41:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 9.5 },
+              { "name": "Benfica", "price": 1.29 },
+              { "name": "Draw", "price": 5.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3a3091b1ea4ffa241c940f8c2e354928",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-01-21T21:15:00Z",
+    "home_team": "Pacos de Ferreira",
+    "away_team": "Boavista Porto",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 3.12 },
+              { "name": "Pacos de Ferreira", "price": 2.46 },
+              { "name": "Draw", "price": 3.1 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2022-01-18T17:34:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 3.1 },
+              { "name": "Pacos de Ferreira", "price": 2.45 },
+              { "name": "Draw", "price": 3.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2022-01-18T17:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 3.06 },
+              { "name": "Pacos de Ferreira", "price": 2.51 },
+              { "name": "Draw", "price": 3.12 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 1.15, "point": 1.5 },
+              { "name": "Pacos de Ferreira", "price": 5.2, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2022-01-18T17:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 3.0 },
+              { "name": "Pacos de Ferreira", "price": 2.28 },
+              { "name": "Draw", "price": 3.05 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 1.57, "point": 0.5 },
+              { "name": "Pacos de Ferreira", "price": 2.26, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 3.06 },
+              { "name": "Pacos de Ferreira", "price": 2.49 },
+              { "name": "Draw", "price": 3.12 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2022-01-18T17:42:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 3.1 },
+              { "name": "Pacos de Ferreira", "price": 2.52 },
+              { "name": "Draw", "price": 2.94 }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 3.6 },
+              { "name": "Pacos de Ferreira", "price": 2.76 },
+              { "name": "Draw", "price": 3.4 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "matchbook",
+        "title": "Matchbook",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 3.1 },
+              { "name": "Pacos de Ferreira", "price": 2.48 },
+              { "name": "Draw", "price": 3.0 }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 3.4 },
+              { "name": "Pacos de Ferreira", "price": 2.66 },
+              { "name": "Draw", "price": 3.25 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 2.14, "point": 0.0 },
+              { "name": "Pacos de Ferreira", "price": 1.77, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "intertops",
+        "title": "Intertops",
+        "last_update": "2022-01-18T17:42:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 2.95 },
+              { "name": "Pacos de Ferreira", "price": 2.45 },
+              { "name": "Draw", "price": 2.85 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2022-01-18T17:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 3.14 },
+              { "name": "Pacos de Ferreira", "price": 2.6 },
+              { "name": "Draw", "price": 3.03 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 2.15, "point": -0.0 },
+              { "name": "Pacos de Ferreira", "price": 1.78, "point": 0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 2.9 },
+              { "name": "Pacos de Ferreira", "price": 2.47 },
+              { "name": "Draw", "price": 3.05 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 1.81, "point": 0.25 },
+              { "name": "Pacos de Ferreira", "price": 2.02, "point": -0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2022-01-18T17:44:38Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 3.0 },
+              { "name": "Pacos de Ferreira", "price": 2.38 },
+              { "name": "Draw", "price": 2.88 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2022-01-18T17:41:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Boavista Porto", "price": 3.1 },
+              { "name": "Pacos de Ferreira", "price": 2.43 },
+              { "name": "Draw", "price": 2.95 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "048b126a4993fc8fe58765293845bb14",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-01-22T15:30:00Z",
+    "home_team": "Moreirense FC",
+    "away_team": "Santa Clara",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Moreirense FC", "price": 2.47 },
+              { "name": "Santa Clara", "price": 3.0 },
+              { "name": "Draw", "price": 3.2 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2022-01-18T17:34:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Moreirense FC", "price": 2.5 },
+              { "name": "Santa Clara", "price": 3.0 },
+              { "name": "Draw", "price": 3.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2022-01-18T17:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Moreirense FC", "price": 2.57 },
+              { "name": "Santa Clara", "price": 2.94 },
+              { "name": "Draw", "price": 3.14 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Moreirense FC", "price": 5.35, "point": -1.5 },
+              { "name": "Santa Clara", "price": 1.14, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Moreirense FC", "price": 2.55 },
+              { "name": "Santa Clara", "price": 2.95 },
+              { "name": "Draw", "price": 3.14 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "matchbook",
+        "title": "Matchbook",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Moreirense FC", "price": 2.38 },
+              { "name": "Santa Clara", "price": 2.92 },
+              { "name": "Draw", "price": 2.92 }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "outcomes": [
+              { "name": "Moreirense FC", "price": 2.88 },
+              { "name": "Santa Clara", "price": 3.65 },
+              { "name": "Draw", "price": 3.65 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2022-01-18T17:42:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Moreirense FC", "price": 2.52 },
+              { "name": "Santa Clara", "price": 3.15 },
+              { "name": "Draw", "price": 1.03 }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "outcomes": [
+              { "name": "Moreirense FC", "price": 2.9 },
+              { "name": "Santa Clara", "price": 3.75 },
+              { "name": "Draw", "price": 3.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "intertops",
+        "title": "Intertops",
+        "last_update": "2022-01-18T17:42:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Moreirense FC", "price": 2.45 },
+              { "name": "Santa Clara", "price": 3.0 },
+              { "name": "Draw", "price": 2.8 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2022-01-18T17:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Moreirense FC", "price": 2.59 },
+              { "name": "Santa Clara", "price": 3.23 },
+              { "name": "Draw", "price": 2.97 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Moreirense FC", "price": 2.17, "point": -0.25 },
+              { "name": "Santa Clara", "price": 1.76, "point": 0.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Moreirense FC", "price": 2.33 },
+              { "name": "Santa Clara", "price": 2.99 },
+              { "name": "Draw", "price": 3.15 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Moreirense FC", "price": 2.09, "point": -0.25 },
+              { "name": "Santa Clara", "price": 1.77, "point": 0.25 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6e426683dd7fa0e831b78126355d2b95",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-01-22T18:00:00Z",
+    "home_team": "Tondela",
+    "away_team": "Vizela",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Tondela", "price": 2.62 },
+              { "name": "Vizela", "price": 2.74 },
+              { "name": "Draw", "price": 3.3 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2022-01-18T17:34:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Tondela", "price": 2.7 },
+              { "name": "Vizela", "price": 2.62 },
+              { "name": "Draw", "price": 3.1 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2022-01-18T17:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Tondela", "price": 2.72 },
+              { "name": "Vizela", "price": 2.65 },
+              { "name": "Draw", "price": 3.28 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Tondela", "price": 1.14, "point": 1.5 },
+              { "name": "Vizela", "price": 5.4, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2022-01-18T17:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Tondela", "price": 2.18 },
+              { "name": "Vizela", "price": 3.15 },
+              { "name": "Draw", "price": 3.1 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Tondela", "price": 2.16, "point": -0.5 },
+              { "name": "Vizela", "price": 1.62, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Tondela", "price": 2.72 },
+              { "name": "Vizela", "price": 2.65 },
+              { "name": "Draw", "price": 3.28 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2022-01-18T17:42:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Tondela", "price": 2.7 },
+              { "name": "Vizela", "price": 2.62 },
+              { "name": "Draw", "price": 3.35 }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "outcomes": [
+              { "name": "Tondela", "price": 3.15 },
+              { "name": "Vizela", "price": 3.0 },
+              { "name": "Draw", "price": 4.1 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "intertops",
+        "title": "Intertops",
+        "last_update": "2022-01-18T17:42:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Tondela", "price": 2.6 },
+              { "name": "Vizela", "price": 2.5 },
+              { "name": "Draw", "price": 3.2 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "matchbook",
+        "title": "Matchbook",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Tondela", "price": 2.6 },
+              { "name": "Vizela", "price": 2.48 },
+              { "name": "Draw", "price": 3.15 }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "outcomes": [
+              { "name": "Tondela", "price": 3.2 },
+              { "name": "Vizela", "price": 3.05 },
+              { "name": "Draw", "price": 3.95 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2022-01-18T17:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Tondela", "price": 2.72 },
+              { "name": "Vizela", "price": 2.67 },
+              { "name": "Draw", "price": 3.43 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Tondela", "price": 1.96, "point": 0.0 },
+              { "name": "Vizela", "price": 1.93, "point": -0.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Tondela", "price": 1.9, "point": 0.0 },
+              { "name": "Vizela", "price": 1.9, "point": -0.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "002c04510eb6436723594129fd8a65f4",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-01-22T20:30:00Z",
+    "home_team": "Sporting Lisbon",
+    "away_team": "Braga",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Braga", "price": 5.65 },
+              { "name": "Sporting Lisbon", "price": 1.57 },
+              { "name": "Draw", "price": 4.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2022-01-18T17:34:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Braga", "price": 5.8 },
+              { "name": "Sporting Lisbon", "price": 1.57 },
+              { "name": "Draw", "price": 3.8 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2022-01-18T17:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Braga", "price": 5.4 },
+              { "name": "Sporting Lisbon", "price": 1.48 },
+              { "name": "Draw", "price": 4.1 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Braga", "price": 1.54, "point": 1.5 },
+              { "name": "Sporting Lisbon", "price": 2.31, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Braga", "price": 5.8 },
+              { "name": "Sporting Lisbon", "price": 1.58 },
+              { "name": "Draw", "price": 4.1 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "matchbook",
+        "title": "Matchbook",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Braga", "price": 5.4 },
+              { "name": "Sporting Lisbon", "price": 1.51 },
+              { "name": "Draw", "price": 3.85 }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "outcomes": [
+              { "name": "Braga", "price": 7.2 },
+              { "name": "Sporting Lisbon", "price": 1.79 },
+              { "name": "Draw", "price": 5.0 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Braga", "price": 1.76, "point": 1.0 },
+              { "name": "Sporting Lisbon", "price": 1.94, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2022-01-18T17:42:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Braga", "price": 5.7 },
+              { "name": "Sporting Lisbon", "price": 1.6 },
+              { "name": "Draw", "price": 4.1 }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "outcomes": [
+              { "name": "Braga", "price": 7.2 },
+              { "name": "Sporting Lisbon", "price": 1.69 },
+              { "name": "Draw", "price": 5.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "intertops",
+        "title": "Intertops",
+        "last_update": "2022-01-18T17:42:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Braga", "price": 5.5 },
+              { "name": "Sporting Lisbon", "price": 1.53 },
+              { "name": "Draw", "price": 3.9 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2022-01-18T17:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Braga", "price": 5.88 },
+              { "name": "Sporting Lisbon", "price": 1.58 },
+              { "name": "Draw", "price": 4.24 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Braga", "price": 1.85, "point": 1.0 },
+              { "name": "Sporting Lisbon", "price": 2.05, "point": -1.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Braga", "price": 5.4 },
+              { "name": "Sporting Lisbon", "price": 1.54 },
+              { "name": "Draw", "price": 4.0 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Braga", "price": 1.87, "point": 1.0 },
+              { "name": "Sporting Lisbon", "price": 1.94, "point": -1.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dce84687771fd11561e388a4b4b0698a",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-01-23T15:30:00Z",
+    "home_team": "CS Maritimo",
+    "away_team": "Belenenses",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Belenenses", "price": 4.58 },
+              { "name": "CS Maritimo", "price": 1.84 },
+              { "name": "Draw", "price": 3.47 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2022-01-18T17:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Belenenses", "price": 4.78 },
+              { "name": "CS Maritimo", "price": 1.8 },
+              { "name": "Draw", "price": 3.54 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Belenenses", "price": 1.34, "point": 1.5 },
+              { "name": "CS Maritimo", "price": 3.32, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Belenenses", "price": 4.85 },
+              { "name": "CS Maritimo", "price": 1.78 },
+              { "name": "Draw", "price": 3.55 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2022-01-18T17:34:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Belenenses", "price": 4.75 },
+              { "name": "CS Maritimo", "price": 1.8 },
+              { "name": "Draw", "price": 3.3 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "matchbook",
+        "title": "Matchbook",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Belenenses", "price": 4.4 },
+              { "name": "CS Maritimo", "price": 1.75 },
+              { "name": "Draw", "price": 3.3 }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "outcomes": [
+              { "name": "Belenenses", "price": 5.8 },
+              { "name": "CS Maritimo", "price": 2.04 },
+              { "name": "Draw", "price": 4.2 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Belenenses", "price": 1.96, "point": 0.5 },
+              { "name": "CS Maritimo", "price": 1.75, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "intertops",
+        "title": "Intertops",
+        "last_update": "2022-01-18T17:42:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Belenenses", "price": 4.6 },
+              { "name": "CS Maritimo", "price": 1.7 },
+              { "name": "Draw", "price": 3.4 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2022-01-18T17:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Belenenses", "price": 5.02 },
+              { "name": "CS Maritimo", "price": 1.78 },
+              { "name": "Draw", "price": 3.63 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Belenenses", "price": 1.84, "point": 0.75 },
+              { "name": "CS Maritimo", "price": 2.06, "point": -0.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2022-01-18T17:42:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Belenenses", "price": 4.8 },
+              { "name": "CS Maritimo", "price": 1.78 },
+              { "name": "Draw", "price": 3.5 }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "outcomes": [
+              { "name": "Belenenses", "price": 6.6 },
+              { "name": "CS Maritimo", "price": 1.94 },
+              { "name": "Draw", "price": 4.4 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "42a5abdbfe434becd5ae0d08ec178da9",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-01-23T15:30:00Z",
+    "home_team": "Vit\u00f3ria SC",
+    "away_team": "Estoril",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Estoril", "price": 4.05 },
+              { "name": "Vit\u00f3ria SC", "price": 1.93 },
+              { "name": "Draw", "price": 3.52 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2022-01-18T17:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Estoril", "price": 3.9 },
+              { "name": "Vit\u00f3ria SC", "price": 1.95 },
+              { "name": "Draw", "price": 3.6 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Estoril", "price": 1.3, "point": 1.5 },
+              { "name": "Vit\u00f3ria SC", "price": 3.6, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2022-01-18T17:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Estoril", "price": 4.3 },
+              { "name": "Vit\u00f3ria SC", "price": 1.74 },
+              { "name": "Draw", "price": 3.45 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Estoril", "price": 1.98, "point": 0.5 },
+              { "name": "Vit\u00f3ria SC", "price": 1.74, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Estoril", "price": 3.94 },
+              { "name": "Vit\u00f3ria SC", "price": 1.93 },
+              { "name": "Draw", "price": 3.6 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2022-01-18T17:34:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Estoril", "price": 3.9 },
+              { "name": "Vit\u00f3ria SC", "price": 1.91 },
+              { "name": "Draw", "price": 3.4 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "intertops",
+        "title": "Intertops",
+        "last_update": "2022-01-18T17:42:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Estoril", "price": 3.75 },
+              { "name": "Vit\u00f3ria SC", "price": 1.83 },
+              { "name": "Draw", "price": 3.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2022-01-18T17:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Estoril", "price": 4.01 },
+              { "name": "Vit\u00f3ria SC", "price": 1.92 },
+              { "name": "Draw", "price": 3.78 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Estoril", "price": 1.97, "point": 0.5 },
+              { "name": "Vit\u00f3ria SC", "price": 1.92, "point": -0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2022-01-18T17:42:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Estoril", "price": 3.6 },
+              { "name": "Vit\u00f3ria SC", "price": 1.9 },
+              { "name": "Draw", "price": 3.55 }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "outcomes": [
+              { "name": "Estoril", "price": 4.9 },
+              { "name": "Vit\u00f3ria SC", "price": 2.06 },
+              { "name": "Draw", "price": 4.3 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5946d33467d976a874aa881c733b72cc",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-01-23T18:00:00Z",
+    "home_team": "Gil Vicente",
+    "away_team": "Portimonense",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Gil Vicente", "price": 2.11 },
+              { "name": "Portimonense", "price": 3.7 },
+              { "name": "Draw", "price": 3.28 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2022-01-18T17:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Gil Vicente", "price": 2.01 },
+              { "name": "Portimonense", "price": 3.94 },
+              { "name": "Draw", "price": 3.38 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Gil Vicente", "price": 3.78, "point": -1.5 },
+              { "name": "Portimonense", "price": 1.25, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Gil Vicente", "price": 1.99 },
+              { "name": "Portimonense", "price": 3.98 },
+              { "name": "Draw", "price": 3.38 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2022-01-18T17:34:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Gil Vicente", "price": 2.05 },
+              { "name": "Portimonense", "price": 3.8 },
+              { "name": "Draw", "price": 3.2 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "intertops",
+        "title": "Intertops",
+        "last_update": "2022-01-18T17:42:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Gil Vicente", "price": 1.9 },
+              { "name": "Portimonense", "price": 3.75 },
+              { "name": "Draw", "price": 3.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2022-01-18T17:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Gil Vicente", "price": 2.01 },
+              { "name": "Portimonense", "price": 4.05 },
+              { "name": "Draw", "price": 3.44 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Gil Vicente", "price": 2.01, "point": -0.5 },
+              { "name": "Portimonense", "price": 1.88, "point": 0.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2022-01-18T17:42:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Gil Vicente", "price": 1.98 },
+              { "name": "Portimonense", "price": 3.7 },
+              { "name": "Draw", "price": 3.35 }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "outcomes": [
+              { "name": "Gil Vicente", "price": 2.18 },
+              { "name": "Portimonense", "price": 5.1 },
+              { "name": "Draw", "price": 4.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "596d732512c7506553dd747e8538466d",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-01-23T20:30:00Z",
+    "home_team": "FC Porto",
+    "away_team": "Famalic\u00e3o",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Famalic\u00e3o", "price": 12.75 },
+              { "name": "FC Porto", "price": 1.22 },
+              { "name": "Draw", "price": 6.55 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2022-01-18T17:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Famalic\u00e3o", "price": 12.5 },
+              { "name": "FC Porto", "price": 1.23 },
+              { "name": "Draw", "price": 6.55 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Famalic\u00e3o", "price": 2.23, "point": 1.5 },
+              { "name": "FC Porto", "price": 1.67, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2022-01-18T17:41:54Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Famalic\u00e3o", "price": 12.0 },
+              { "name": "FC Porto", "price": 1.18 },
+              { "name": "Draw", "price": 6.0 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Famalic\u00e3o", "price": 2.22, "point": 1.5 },
+              { "name": "FC Porto", "price": 1.59, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2022-01-18T17:34:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Famalic\u00e3o", "price": 13.0 },
+              { "name": "FC Porto", "price": 1.22 },
+              { "name": "Draw", "price": 5.8 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Famalic\u00e3o", "price": 13.0 },
+              { "name": "FC Porto", "price": 1.22 },
+              { "name": "Draw", "price": 6.55 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "intertops",
+        "title": "Intertops",
+        "last_update": "2022-01-18T17:42:58Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Famalic\u00e3o", "price": 11.0 },
+              { "name": "FC Porto", "price": 1.18 },
+              { "name": "Draw", "price": 6.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "pinnacle",
+        "title": "Pinnacle",
+        "last_update": "2022-01-18T17:42:53Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Famalic\u00e3o", "price": 14.01 },
+              { "name": "FC Porto", "price": 1.21 },
+              { "name": "Draw", "price": 6.96 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Famalic\u00e3o", "price": 2.03, "point": 1.75 },
+              { "name": "FC Porto", "price": 1.85, "point": -1.75 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betfair",
+        "title": "Betfair",
+        "last_update": "2022-01-18T17:42:52Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Famalic\u00e3o", "price": 1.05 },
+              { "name": "FC Porto", "price": 1.2 },
+              { "name": "Draw", "price": 6.4 }
+            ]
+          },
+          {
+            "key": "h2h_lay",
+            "outcomes": [
+              { "name": "Famalic\u00e3o", "price": 100.0 },
+              { "name": "FC Porto", "price": 1.28 },
+              { "name": "Draw", "price": 950.0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4698337b73d19682c32d46adb6c670df",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-01-27T20:15:00Z",
+    "home_team": "Estoril",
+    "away_team": "Arouca",
+    "bookmakers": [
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2022-01-18T17:34:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 5.0 },
+              { "name": "Estoril", "price": 1.75 },
+              { "name": "Draw", "price": 3.3 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2022-01-18T17:41:50Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 4.5 },
+              { "name": "Estoril", "price": 1.73 },
+              { "name": "Draw", "price": 3.6 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sport888",
+        "title": "888sport",
+        "last_update": "2022-01-18T17:44:38Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 4.35 },
+              { "name": "Estoril", "price": 1.7 },
+              { "name": "Draw", "price": 3.55 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 4.67 },
+              { "name": "Estoril", "price": 1.83 },
+              { "name": "Draw", "price": 3.45 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2022-01-18T17:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 4.68 },
+              { "name": "Estoril", "price": 1.82 },
+              { "name": "Draw", "price": 3.52 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Arouca", "price": 1.33, "point": 1.5 },
+              { "name": "Estoril", "price": 3.38, "point": -1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Arouca", "price": 4.75 },
+              { "name": "Estoril", "price": 1.8 },
+              { "name": "Draw", "price": 3.52 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10f7ade97e1d10dc947fa1515e095642",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-01-30T15:30:00Z",
+    "home_team": "Portimonense",
+    "away_team": "Tondela",
+    "bookmakers": [
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2022-01-18T17:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Portimonense", "price": 1.93 },
+              { "name": "Tondela", "price": 4.16 },
+              { "name": "Draw", "price": 3.3 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Portimonense", "price": 3.24, "point": -1.5 },
+              { "name": "Tondela", "price": 1.28, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Portimonense", "price": 1.9 },
+              { "name": "Tondela", "price": 4.22 },
+              { "name": "Draw", "price": 3.47 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2022-01-18T17:34:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Portimonense", "price": 1.91 },
+              { "name": "Tondela", "price": 4.2 },
+              { "name": "Draw", "price": 3.3 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "981de18185f129d7d822123eb1f82363",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-01-30T15:30:00Z",
+    "home_team": "Vizela",
+    "away_team": "Vit\u00f3ria SC",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Vit\u00f3ria SC", "price": 2.49 },
+              { "name": "Vizela", "price": 2.93 },
+              { "name": "Draw", "price": 3.25 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2022-01-18T17:34:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Vit\u00f3ria SC", "price": 2.5 },
+              { "name": "Vizela", "price": 3.0 },
+              { "name": "Draw", "price": 3.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2022-01-18T17:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Vit\u00f3ria SC", "price": 2.54 },
+              { "name": "Vizela", "price": 2.94 },
+              { "name": "Draw", "price": 3.18 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Vit\u00f3ria SC", "price": 5.05, "point": -1.5 },
+              { "name": "Vizela", "price": 1.16, "point": 1.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "marathonbet",
+        "title": "Marathon Bet",
+        "last_update": "2022-01-18T17:38:59Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Vit\u00f3ria SC", "price": 2.52 },
+              { "name": "Vizela", "price": 2.95 },
+              { "name": "Draw", "price": 3.18 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "069d5c84930a111a59916eb4ca89a39d",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-01-30T18:00:00Z",
+    "home_team": "Braga",
+    "away_team": "Moreirense FC",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Braga", "price": 1.37 },
+              { "name": "Moreirense FC", "price": 8.45 },
+              { "name": "Draw", "price": 5.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2022-01-18T17:34:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Braga", "price": 1.33 },
+              { "name": "Moreirense FC", "price": 9.5 },
+              { "name": "Draw", "price": 4.6 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2022-01-18T17:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Braga", "price": 1.34 },
+              { "name": "Moreirense FC", "price": 9.4 },
+              { "name": "Draw", "price": 4.6 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Braga", "price": 1.99, "point": -1.5 },
+              { "name": "Moreirense FC", "price": 1.73, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "52c6f2a0da3976a14d1608b35c459df4",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-01-30T20:30:00Z",
+    "home_team": "FC Porto",
+    "away_team": "CS Maritimo",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "CS Maritimo", "price": 14.75 },
+              { "name": "FC Porto", "price": 1.2 },
+              { "name": "Draw", "price": 6.65 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "williamhill",
+        "title": "William Hill",
+        "last_update": "2022-01-18T17:34:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "CS Maritimo", "price": 17.0 },
+              { "name": "FC Porto", "price": 1.17 },
+              { "name": "Draw", "price": 6.5 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2022-01-18T17:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "CS Maritimo", "price": 16.0 },
+              { "name": "FC Porto", "price": 1.18 },
+              { "name": "Draw", "price": 6.5 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "CS Maritimo", "price": 2.18, "point": 1.5 },
+              { "name": "FC Porto", "price": 1.58, "point": -1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7962448e26215d5c43f7c6248cb790a1",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-02-02T20:15:00Z",
+    "home_team": "Belenenses",
+    "away_team": "Sporting Lisbon",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Belenenses", "price": 10.75 },
+              { "name": "Sporting Lisbon", "price": 1.27 },
+              { "name": "Draw", "price": 5.9 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2f18218d0b596c2584247aebe2e494fa",
+    "sport_key": "soccer_portugal_primeira_liga",
+    "sport_title": "Primeira Liga - Portugal",
+    "commence_time": "2022-02-02T20:15:00Z",
+    "home_team": "Benfica",
+    "away_team": "Gil Vicente",
+    "bookmakers": [
+      {
+        "key": "betclic",
+        "title": "Betclic",
+        "last_update": "2022-01-18T17:43:43Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Benfica", "price": 1.26 },
+              { "name": "Gil Vicente", "price": 11.5 },
+              { "name": "Draw", "price": 6.0 }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "onexbet",
+        "title": "1xBet",
+        "last_update": "2022-01-18T17:44:36Z",
+        "markets": [
+          {
+            "key": "h2h",
+            "outcomes": [
+              { "name": "Benfica", "price": 1.21 },
+              { "name": "Gil Vicente", "price": 10.5 },
+              { "name": "Draw", "price": 5.5 }
+            ]
+          },
+          {
+            "key": "spreads",
+            "outcomes": [
+              { "name": "Benfica", "price": 1.71, "point": -1.5 },
+              { "name": "Gil Vicente", "price": 2.01, "point": 1.5 }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

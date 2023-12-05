@@ -1,0 +1,133 @@
+{% load static %}
+<div class="boletim">
+    <p class="cart"> <img src="{% static 'Images/cart.png' %}" height="20px" alt=""> Boletim</p>
+    {% for aposta in apostasBoletim %}
+        <div class="jogowrapper">
+            
+            <p class="jogoboletim"> <img src="{% static 'Images/futebol.png' %}" class="boletimfutebol" alt="d"> <a href="{% url 'deleteAposta' aposta.id %}"> <img src="{% static 'Images/delete.png' %}" class="boletimtrash" alt="d"> </a> Jogo : {{ aposta.partida.equipa_casa }} vs {{ aposta.partida.equipa_visitante }}</p>
+            <p class="boletimresultado"> Resultado:
+                {% if aposta.resultadoApostado == "C" %} {{ aposta.partida.equipa_casa }}
+                {% elif aposta.resultadoApostado == "V" %} {{ aposta.partida.equipa_visitante }}
+                {% elif aposta.resultadoApostado == "E" %} Empate {% endif %}</p>   
+            <p class="boletimcota"> Cota:
+                {% if aposta.resultadoApostado == "C" %} {{ aposta.partida.odds_casa }}
+                {% elif aposta.resultadoApostado == "V" %} {{ aposta.partida.odds_visitante }}
+                {% elif aposta.resultadoApostado == "E" %} {{ aposta.partida.odds_empate }} {% endif %} </p>
+        <form method="POST" action="{% url 'atualizarApostaBoletim' aposta.id %}">
+            {% csrf_token %}
+            <div class="futebolinput">
+                <ul>
+                    <li> 
+                        <label>Moeda: </label>
+                        <input type="text" name="moeda" list="listaMoedas" onmousedown="value = '';" value="{{ aposta.moeda }}"
+                        onchange="this.form.submit()" type="submit">
+                        <datalist id="listaMoedas">
+                            {% for moeda in metodos %}
+                                <option value="{{ moeda }}">
+                            {% endfor %}
+                        </datalist>
+                    </li>
+
+                    <li>
+                        <label>Valor: </label>
+                        <input type="number" min=0 step=0.01 name="valor" value="{{ aposta.valor }}" onchange="this.form.submit()"
+                               type="submit"/>
+                    </li>
+                </ul>
+
+                
+            </div>
+            
+
+            
+            
+
+        </form>
+        </div>
+        
+        
+
+
+    {% endfor %}
+
+    
+    {% for aposta in apostasBoletimFormula %}
+        <div class="jogowrapper">
+            <p class="jogoboletim"> <img src="{% static 'Images/formula1.png' %}" class="boletimfutebol" alt="d"> <a href="{% url 'deleteApostaFormula' aposta.id %}"> <img src="{% static 'Images/delete.png' %}" class="boletimtrash" alt="d"> </a>
+                {{aposta.partida.titulo}}
+            <p class="boletimresultado">Resultado: {{aposta.pilotoApostado.nome}}</p>
+            <p class="boletimcota">Cota: {{aposta.pilotoApostado.odds}}</p>
+            
+            <form method="POST" action="{% url 'atualizarApostaBoletimFormula' aposta.id %}">
+                {% csrf_token %}
+                <div class="futebolinput">
+                    <ul>
+                        <li> 
+                            <label>Moeda: </label>
+                            <input type="text" name="moeda" list="listaMoedas" onmousedown="value = '';" value="{{ aposta.moeda }}"
+                            onchange="this.form.submit()" type="submit">
+                            <datalist id="listaMoedas">
+                                {% for moeda in metodos %}
+                                    <option value="{{ moeda }}">
+                                {% endfor %}
+                            </datalist>
+                        </li>
+    
+                        <li>
+                            <label>Valor: </label>
+                            <input type="number" min=0 step=0.01 name="valor" value="{{ aposta.valor }}" onchange="this.form.submit()"
+                                   type="submit"/>
+                        </li>
+                    </ul>
+    
+                    
+                </div>
+            </form>
+        </div>
+
+
+    {% endfor %}
+
+    {% if apostasBoletim or apostasBoletimFormula %}
+    <div class="resumoboletim">
+        <ul class="listafimboletim">
+            <li>
+                <p> Custo: </p>
+            </li>
+            {% for custo in boletimCustos %}
+
+               <li>
+                {{ custo.valor }} {{ custo.moeda }} 
+               </li> 
+             
+             {% endfor %}
+
+        </ul>
+        <ul class="listafimboletim">
+            <li> 
+                <p> Lucro: </p>
+            </li>
+            {% for lucro in boletimProfits %}  
+            
+            <li>
+                {{ lucro.valor }} {{ lucro.moeda }} 
+            </li>
+            {% endfor %}
+        </ul>
+
+             
+    </div>
+
+
+    <a href="{% url 'limparboletim' %}">
+        <button>Limpar Boletim</button>
+    </a>
+    </br>
+    <a href="{% url 'confirmarboletim' %}">
+        <button>Confirmar Boletim</button>
+    </a>
+    {% else %} 
+    <p>Adicione uma aposta!</p>
+    {% endif %}
+    
+</div>

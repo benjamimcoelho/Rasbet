@@ -1,0 +1,64 @@
+{% load static %}
+
+<div>
+    <div class="navbar-wrapper">
+        <ul class="left">
+            <li class="navbar-widget">
+                <a href="{% url 'home' %}">
+                    <img class="nav-logo" src="{% static 'Images/logo.png' %}" alt="Rasbet">
+                </a>
+            </li>
+        </ul>
+        <ul class="right">
+            {% if request.user.is_authenticated %}
+                <li class="navbar-widget navbar-glow">
+                    <a href="{% url 'conversion' %}">Conversão</a>
+                </li>
+
+                <li class="navbar-widget navbar-glow">
+                    <a href="{% url 'logout' %}">Logout</a>
+                </li>
+                <li class="navbar-widget navbar-glow">
+                    <a href="{% url 'account' %}">
+                        <div class="user-icon"></div>
+                        <h1>Olá {{ utilizador.nome }}!</h1>
+                    </a>
+                </li>
+            {% else %}
+                <li class="navbar-widget navbar-glow">
+                    <a href="{% url 'login' %}">Login</a>
+                </li>
+                <li class="navbar-widget navbar-glow">
+                    <a href="{% url 'register' %}">Registar</a>
+                </li>
+            {% endif %}
+
+        </ul>
+    </div>
+    <!--
+    <div class="navbar">
+        <div class="nav-logo">
+            <a href="{% url 'home' %}"> <img src="{% static 'Images/logo.png' %}" alt="Rasbet"> </a>
+        </div>
+        {% if request.user.is_authenticated %}
+            <div class=".navbar-widget">
+                <h1>Olá {{ utilizador.nome }} !</h1>
+            </div>
+            <div class=".navbar-widget">
+                <a class=".navbar-widget" href="{% url 'account' %}"> <img class="usericon"
+                                                                           src="{% static 'Images/user.png' %}" alt=""></a>
+            </div>
+            <div class=".navbar-widget">
+                <a class=".navbar-widget" href="{% url 'logout' %}">Logout</a>
+            </div>
+            <div class=".navbar-widget">
+                <a class=".navbar-widget" href="{% url 'conversion' %}">Conversão</a>
+            </div>
+        {% else %}
+            <a class=".navbar-widget" href="{% url 'login' %}">Login</a>
+            <a class=".navbar-widget" href="{% url 'register' %}">Registar</a>
+        {% endif %}
+        <a href="{% url 'home' %}">Início</a>
+    </div>
+-->
+</div>

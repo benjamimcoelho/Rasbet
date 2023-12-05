@@ -1,0 +1,24 @@
+#user{
+    font-family: 'Roboto', sans-serif;
+}
+
+#user h1{
+    text-align: left;
+    font-size: 1em;
+}
+
+#user h2{
+    display: block;
+    font-size: 0.8em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+#user img{
+    width: 0.8em;
+    height: 0.8em;
+    padding-left: 0.4em;
+}

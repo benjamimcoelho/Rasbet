@@ -1,0 +1,31 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block scripts %}
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'CSS/home.css' %}">
+{% endblock scripts %}
+
+{% block content %}
+
+    {% include 'messages.html' with messages=messages %}
+    <div class="left-panel">
+        {% include 'sportsnav.html' %}
+    </div>
+
+    <div class="rigth-panel">
+        {% if user.is_authenticated %}
+            {% include 'boletim.html' with user=user utilizador=utilizador apostasBoletimFormula=apostasBoletimFormula apostasBoletim=apostasBoletim metodos=metodos boletimCustos=boletimCustos boletimProfits=boletimProfits %}
+        {% endif %}
+        <a href="https://play.google.com/store/apps/details?id=com.fingersoft.benjibananas&hl=en_US&gl=US"
+           target="blank"> <img src="{% static 'Images/publicidade2.png' %}" width="90%" alt="RasbetPub"> </a>
+    </div>
+    <div class="home-container">
+        <div class="main-panel">
+            {% include 'apostas.html' with desporto=desporto partidas=partidas partidasFormula=partidasFormula user=user %}
+        </div>
+        <div class="fotter-wrapper">
+            {% include 'fotter.html' %}
+        </div>
+    </div>
+
+{% endblock content %}

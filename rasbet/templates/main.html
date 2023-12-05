@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'CSS/main.css' %}">
+    <link rel="icon" href="{% static 'Images/icon.png' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Roboto+Slab:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    {% block scripts %}
+    {% endblock scripts %}
+    {% block head %}
+        <title>Rasbet</title>
+    {% endblock head %}
+</head>
+<body>
+
+    {% block navbar %}
+        {% include 'navbar.html' %}
+    {% endblock navbar %}
+<div class="main">
+    {% include 'messages.html' %}
+
+    {% block content %}
+    {% endblock content %}
+
+</div>
+</body>
+</html>

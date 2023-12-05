@@ -1,0 +1,23 @@
+{% load static %}
+<h2 class="titulosportsnav">Desportos</h2>
+
+<div class="sports">
+    <ul>
+
+            <a href="{% url 'home' 'futebol' %}">
+                <li>
+                <img src="{% static 'Images/futebol.png' %}" alt="">
+                Futebol
+                </li>
+            </a>
+
+
+            <a href="{% url 'home' 'formula' %}">
+                <li>
+                <img src="{% static 'Images/formula1.png' %}" alt="">
+                Fórmula 1
+                </li>
+            </a>
+
+    </ul>
+</div>

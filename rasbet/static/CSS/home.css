@@ -1,0 +1,362 @@
+.left-panel {
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(237, 237, 237);
+}
+
+.rigth-panel {
+    width: 25%;
+    height: 100%;
+    margin-left: 75%;
+    position: fixed;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+
+}
+
+.home-container {
+    margin-left: 20%;
+    margin-right: 25%;
+}
+
+.home-container::-webkit-scrollbar {
+    display: none;
+}
+
+.rigth-panel::-webkit-scrollbar {
+    display: none;
+}
+
+.main-panel {
+}
+
+.apostasnav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.apostasnav a {
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.apostasnav li {
+    border-radius: 5px;
+}
+
+.apostasnav li:hover {
+    background-color: rgb(255, 47, 98);
+}
+
+.boletim {
+    background-color: rgb(237, 237, 237);
+    padding: 15px;
+    text-align: right;
+    overflow-y: scroll;
+    border-bottom-left-radius: 25px;
+}
+
+.boletim::-webkit-scrollbar {
+    display: none;
+}
+
+.cart {
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Dongle', sans-serif;
+    margin: 0;
+}
+
+.boletim input {
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.boletim button {
+    border-radius: 10px;
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: 500ms;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.boletim button:hover {
+    color: white;
+    background-color: black;
+    transition: 500ms;
+}
+
+.boletimtrash {
+    height: 30px;
+    float: right;
+    margin: 5px;
+}
+
+.partidatitulo {
+    grid-column: 1 / span 2;
+}
+
+.jogowrapper {
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.formula1wrapper {
+    padding: 10px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.formula1wrapper h2 {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Roboto slab', serif;
+
+}
+
+.piloto {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', serif;
+    font-weight: 900;
+}
+
+.piloto:hover {
+    font-size: 30px;
+    color: rgb(255, 47, 98);
+}
+
+.jogoboletim {
+    text-align: left;
+    font-size: 15px;
+    color: rgb(102, 102, 102);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.boletimresultado {
+    text-align: left;
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.boletimcota {
+    font-size: 15px;
+    float: left;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.boletimfutebol {
+    float: left;
+    height: 50px;
+    padding-right: 5px;
+
+}
+
+.futebolinput ul {
+    display: flex;
+    margin-bottom: 0;
+
+}
+
+.futebolinput ul li {
+    list-style: none;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.futebolinput ul li input {
+    width: 50%;
+    text-align: center;
+    margin-left: 10px;
+    border: 0
+}
+
+.futebolinput ul li input:hover {
+    border: black;
+}
+
+.futebolinput ul li label {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.resumoboletim {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.listafimboletim {
+    border: 1px solid black;
+    text-align: left;
+    margin: 0;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.listafimboletim li {
+    list-style: none;
+    font-size: 15px;
+    margin: 0;
+    margin-right: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.listafimboletim li p {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.separacaoboletim {
+    border: 1px solid black;
+}
+
+.partida-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+    background-color: rgb(237, 237, 237);
+
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    grid-gap: 0;
+}
+
+.partida-wrapper h3 {
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    height: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.equipawrapper {
+    margin-bottom: 10px;
+
+}
+
+.equipa {
+    text-decoration: none;
+    background-color: rgb(255, 47, 98);
+    color: rgb(237, 237, 237);
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 2px;
+    padding-left: 10%;
+    padding-right: 10%;
+    transition: 500ms;
+    font-family: 'Roboto', serif;
+    font-weight: 900;
+
+}
+
+.equipa:hover {
+    color: white;
+    background-color: black;
+    transition: 500ms;
+}
+
+
+.data {
+    font-size: 18px;
+    font-family: 'Roboto', serif;
+    font-weight: 900;
+}
+
+.dataformula {
+    float: right;
+    margin: 0;
+    font-family: 'Roboto', serif;
+    font-weight: 900;
+}
+
+
+.sports {
+    width: 100%;
+}
+
+.sports img {
+    height: 50px;
+    position: relative;
+    top: 15px;
+    margin-left: 3%;
+}
+
+.sports ul li {
+    list-style: none;
+    border-radius: 10px;
+    margin-right: 10%;
+    margin-bottom: 5%;
+
+    height: 75px;
+    background-color: white;
+
+}
+
+.sports ul a {
+    text-decoration: none;
+    color: black;
+    transition: 500ms;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.sports ul a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    transition: 500ms;
+    
+}
+
+.sports ul li:hover {
+    background-color: black;
+
+}
+
+.titulosportsnav{
+    font-family: 'Roboto', sans-serif;
+    margin-left: 11%;
+}
+
+.footerwrapper{
+    background-color: rgb(237, 237, 237);
+}
+
+
+.footer{
+    font-family: 'Dongle', sans-serif;
+    font-weight: 300;
+    margin: 10%;
+    margin-bottom: 0;
+}

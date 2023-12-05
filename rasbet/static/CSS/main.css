@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1.4rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.main {
+    padding-top: 50px;
+}
+
+.navbar-wrapper {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    min-height: 50px;
+    height: 50px;
+    background-color: rgb(237, 237, 237);
+}
+
+.navbar-wrapper ul {
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+    padding: 0 0.83em;
+}
+
+.navbar-wrapper ul li {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-wrapper ul li a img {
+    max-height: 100%;
+}
+
+.navbar-wrapper ul li a {
+    text-decoration: none;
+    color: #da3535;
+}
+
+.navbar-glow {
+    color: #da3535;
+    transition: 500ms;
+    font-weight: 900;
+    background-color: rgb(237, 237, 237);
+}
+
+.navbar-glow a:hover {
+    background: black;
+    transition: 500ms;
+    color: #fff;
+}
+
+
+.navbar-glow .user-icon {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: url("/static/Images/user.png") no-repeat;
+    background-size: 100%;
+    transition: 500ms;
+}
+
+.navbar-glow:hover .user-icon {
+    background-image: url("/static/Images/user-white.png");
+    background-size: 100%;
+}
+
+.navbar-glow .user-icon:hover {
+    background-image: url("/static/Images/user-white.png");
+    background-size: 100%;
+    transition: 500ms;
+}
+
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.navbar-widget {
+    color: #da3535;
+    text-decoration: none;
+    background-color: rgb(237, 237, 237);
+    height: 100%;
+}
+
+
+.navbar-widget h1 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.navbar-widget a {
+    font-weight: 900;
+    text-decoration: none;
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-widget .nav-logo {
+    height: 95%;
+    width: auto;
+    padding: 1px;
+}

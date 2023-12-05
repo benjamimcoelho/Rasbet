@@ -1,0 +1,50 @@
+{% extends 'main.html' %}
+
+{% load static %}
+
+{% block head %}
+    <title>Conversion</title>
+{% endblock head %}
+
+{% block scripts %}
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'CSS/conversion.css' %}">
+{% endblock scripts %}
+
+{% block content %}
+
+
+    <div id="title"><h1>Conversão de Moedas</h1></div>
+
+    <form method="POST">
+        {% csrf_token %}
+        <div class="conversion">
+            <label> De: </label>
+            </br>
+            <input class="inputConversion" type="text" name="moeda_origem" list="listaMoedas" onmousedown="value = '';">
+            </br>
+            <datalist id="listaMoedas">
+                {% for moeda in metodos %}
+                    <option value="{{ moeda }}">
+                {% endfor %}
+            </datalist>
+            <label> Valor: </label>
+            </br>
+            <input type="number" min=0 step=0.01 name="valor">
+            </br>
+            <label>Para: </label>
+            </br>
+            <label>
+                <input type="text" name="moeda_destino" list="listaMoedas2" onmousedown="value = '';">
+            </label>
+            <datalist id="listaMoedas2">
+                {% for moeda in metodos %}
+                    <option value="{{ moeda }}">
+                {% endfor %}
+            </datalist>
+            </br>
+            <input id="submit" type="submit" value="Converter">
+
+        </div>
+    </form>
+
+{% endblock content %}

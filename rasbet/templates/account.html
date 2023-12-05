@@ -1,0 +1,33 @@
+{% extends 'main.html' %}
+
+{% load static %}
+
+{% block head %}
+    <title>Profile</title>
+{% endblock head %}
+
+{% block scripts %}
+    <link rel='stylesheet' type='text/css' media='screen' href="{% static 'CSS/profile.css' %}">
+{% endblock scripts %}
+
+{% block content %}
+    <div class="profile-page">
+        <h1>Página pessoal</h1>
+
+        <div class="profile-wrapper">
+
+            <h2>Nome Completo: {{ utilizador.nome }}</h2>
+            <h2>Nome do utilizador: {{ user.username }}</h2>
+            <h2>Email: {{ utilizador.email }}</h2>
+            <h2>Morada: {{ utilizador.morada }}</h2>
+            <h2>Codigo Postal: {{ utilizador.codigoPostal }}</h2>
+            <h2>Nacionalidade: {{ utilizador.nacionalidade }}</h2>
+
+        </div>
+
+        {% include 'wallet.html' %}
+
+        {% include 'historico.html' %}
+    </div>
+
+{% endblock content %}

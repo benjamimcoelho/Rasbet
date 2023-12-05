@@ -1,0 +1,18 @@
+
+.historico-wrapper {
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 1%;
+    margin-bottom: 1% ;
+}
+
+.futebol {
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px
+}
+
+.formula1{
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px
+}
